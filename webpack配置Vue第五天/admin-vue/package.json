@@ -1,0 +1,25 @@
+{
+  "name": "admin-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predev-server": "npm install",
+    "dev-server": "browser-sync start --server --port 5000 --files \"index.html, css/*.css, js/**/*.js\"",
+    "predev": "npm install",
+    "dev": "node browser-sync.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "http-proxy-middleware": "^0.17.4"
+  }
+}

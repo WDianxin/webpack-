@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin - Vue</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="css/dashboard.css" rel="stylesheet">
+  <style>
+    /*.router-link-active {
+      color: red;
+    }*/
+  </style>
+</head>
+
+<body>
+  <!-- 单页面容器入口，会被根组件 App 替换掉 -->
+  <div id="app"></div>
+  <script src="node_modules/axios/dist/axios.js"></script>
+  <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="node_modules/vue-router/dist/vue-router.js"></script>
+  <script src="./js/components/layout/Navbar.js"></script>
+  <script src="./js/components/layout/Sidebar.js"></script>
+  <script src="./js/components/Home/Home.js"></script>
+  <script src="./js/App.js"></script>
+  <script src="./js/components/hero/List.js"></script>
+  <script src="./js/components/hero/Create.js"></script>
+  <script src="./js/components/hero/Show.js"></script>
+  <script src="./js/components/hero/Update.js"></script>
+  <script src="./js/router/index.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

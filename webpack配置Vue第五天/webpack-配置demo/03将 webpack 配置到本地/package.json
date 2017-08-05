@@ -1,0 +1,15 @@
+{
+  "name": "demo3",
+  "version": "1.0.0",
+  "description": "> 目标：学习 webpack 的配置文件",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack src/main.js dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
